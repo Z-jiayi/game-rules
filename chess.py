@@ -9,6 +9,7 @@ class Pawn:
     def is_valid_square(row, col):
         return 0 <= row < 8 and 0 <= col < 8
 
+    # gets all the legal moves
     def get_legal_pawn_moves(chessboard, row, col, color):
         legal_moves = []
         if color == "white":
