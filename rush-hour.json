@@ -1,0 +1,67 @@
+{
+  "board_size": {
+    "rows": 6,
+    "columns": 6
+  },
+  
+  "vehicles": [
+    {
+      "type": "horizontal",
+      "position": {
+        "row": [2],
+        "col": [0, 1]
+      },
+      "size": 2
+    },
+    {
+      "type": "vertical",
+      "position": {
+        "row": [0, 1, 2],
+        "col": [2]
+      },
+      "size": 3
+    },
+    {
+      "type": "horizontal",
+      "position": {
+        "row": [3],
+        "col": [0, 1, 2]
+      },
+      "size": 3
+    },
+    {
+      "type": "horizontal",
+      "position": {
+        "row": [0],
+        "col": [4, 5]
+      },
+      "size": 2
+    },
+    {
+      "type": "vertical",
+      "position": {
+        "row": [3, 4, 5],
+        "col": [5]
+      },
+      "size": 3
+    }
+  ],
+  "exit": {
+    "row": 2,
+    "col": 5
+  },
+  "obstacles": [
+    {
+      "position": {
+        "row": 4,
+        "col": 2
+      }
+    },
+    {
+      "position": {
+        "row": 5,
+        "col": 5
+      }
+    }
+  ]
+}
